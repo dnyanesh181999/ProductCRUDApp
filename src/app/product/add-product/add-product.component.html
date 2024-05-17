@@ -1,0 +1,8 @@
+<form class="m-3" [formGroup]="frm">
+    <input type="text" placeholder="Enter the product Id" class="form-control m-3" formControlName="productId">
+    <input type="text" placeholder="Enter the product name" class="form-control m-3" formControlName="productType">
+    <input type="text" placeholder="Enter the product type" class="form-control m-3" formControlName="productName">
+    <input type="text" placeholder="Enter the product Price" class="form-control m-3" formControlName="productPrice">
+    <button class="btn btn-danger" (click)="onSumbit()">SUBMIT</button>
+
+</form>
